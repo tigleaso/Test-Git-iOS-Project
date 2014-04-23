@@ -21,6 +21,7 @@
 		3B3A7ED9190843E100B33A10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A7EBB190843E100B33A10 /* UIKit.framework */; };
 		3B3A7EE1190843E100B33A10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A7EDF190843E100B33A10 /* InfoPlist.strings */; };
 		3B3A7EE3190843E100B33A10 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A7EE2190843E100B33A10 /* Git_TestTests.m */; };
+		3B3A7EEE1908487C00B33A10 /* TayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A7EED1908487C00B33A10 /* TayTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3B3A7EDE190843E100B33A10 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3B3A7EE0190843E100B33A10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B3A7EE2190843E100B33A10 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3B3A7EEC1908487C00B33A10 /* TayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TayTest.h; sourceTree = "<group>"; };
+		3B3A7EED1908487C00B33A10 /* TayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TayTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				3B3A7ECD190843E100B33A10 /* TayViewController.m */,
 				3B3A7ECF190843E100B33A10 /* Images.xcassets */,
 				3B3A7EBE190843E100B33A10 /* Supporting Files */,
+				3B3A7EEC1908487C00B33A10 /* TayTest.h */,
+				3B3A7EED1908487C00B33A10 /* TayTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				3B3A7ECE190843E100B33A10 /* TayViewController.m in Sources */,
 				3B3A7EC4190843E100B33A10 /* main.m in Sources */,
+				3B3A7EEE1908487C00B33A10 /* TayTest.m in Sources */,
 				3B3A7EC8190843E100B33A10 /* TayAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				3B3A7EE8190843E100B33A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B3A7EE9190843E100B33A10 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				3B3A7EEB190843E100B33A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
